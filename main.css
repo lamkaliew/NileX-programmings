@@ -15,7 +15,7 @@ body{
 }
 .header{
     width: 800px;
-    height: 40px;
+    height: 45px;
 /*    border: 2px solid white;*/
 }
 
@@ -29,16 +29,16 @@ body{
 
 
 .header .logo .nile{
-    font-size: 23px;
+    font-size: 33px;
 }
 
 
-.header .logo .xcolor{
+.xcolor{
     color: red;
 }
 .header .nav{
     width: 500px;
-    margin-top: 7px;
+    margin-top: 9px;
     float: right;
 }
 .header .nav span{
@@ -53,8 +53,14 @@ body{
 /* this section of css is for theme section*/
 
 .theme-sect{
-    background-color: blue;
-    height: 200px;
+    background-image: url(./images/theme-bg.jpg);
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    background-size: cover;
+    height: 540px;
+}
+.theme-sect .first-part{
+    font-size: 33px;
 }
 
 
