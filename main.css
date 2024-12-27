@@ -13,7 +13,7 @@ body{
 /*    border: 2px solid white;*/
     margin:0px auto;
 }
-.container .header{
+.header{
     width: 800px;
     height: 40px;
 /*    border: 2px solid white;*/
@@ -21,31 +21,87 @@ body{
 
 
 
-.container .header .logo{
+.header .logo{
     float: left;
     font-style: italic;
 }
 
 
 
-.container .header .logo .nile{
+.header .logo .nile{
     font-size: 23px;
 }
 
 
-.container .header .logo .xcolor{
+.header .logo .xcolor{
     color: red;
 }
-.container .header .nav{
+.header .nav{
     width: 500px;
     margin-top: 7px;
     float: right;
 }
-.container .header .nav span{
+.header .nav span{
     margin-left: 30px;
     margin-right: 30px;
-}.container .header .nav .active{
+}
+.header .nav .active{
     color: red;
     border-bottom: 2px solid green;
 }
+
+/* this section of css is for theme section*/
+
+.theme-sect{
+    background-color: blue;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
