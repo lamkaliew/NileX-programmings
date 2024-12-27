@@ -55,12 +55,18 @@ body{
 .theme-sect{
     background-image: url(./images/theme-bg.jpg);
     background-repeat: no-repeat;
-    border: 1px solid white;
+    border: 1px solid black;
     background-size: cover;
     height: 540px;
 }
 .theme-sect .first-part{
     font-size: 33px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-style: italic;
+}
+.theme-sect .second-part{
+    font-size: 20px;
 }
 
 
