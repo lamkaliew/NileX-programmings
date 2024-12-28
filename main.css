@@ -75,11 +75,12 @@ body{
 
 
 
+
+
 .about-sect{
     background-color: white;
     height: 700px;
     color: green;
-    margin-top: -14px;
 }
 .about-sect .why{
     font-size: 26px;
@@ -92,7 +93,6 @@ body{
 .about-sect .about-message{
     font-size: 18px;
     padding-top: 40px;
-    letter-spacing: 1.5px;
 }
 
 
