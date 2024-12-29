@@ -142,10 +142,10 @@ body{
     width: 380px;
     height: 300px;
 }
-.contact-sect .Address-phone{
+.contact-sect .Address-email{
     float: right
 }
-.contact-sect .Address-email{
+.contact-sect .Address-phone{
     float: left
 }
 .contact-sect .Address-phone input{
