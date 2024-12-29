@@ -1,6 +1,6 @@
-# NileXProgramming
+# NileX Programming
 
-Welcome to my nilexprogrammings website, NileXProgramming. This site showcases my talent and experience, connects with clients, and helps me land jobs.
+Welcome to NileX Programming! This portfolio website showcases my talent and experience in web development, connects with clients, and helps me land jobs. I specialize in HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, and Laravel. The site features various projects, including a school management system where students can log in to see their marks and assignments, and teachers can manage their tasks. Feel free to reach out through my website or connect with me on GitHub. Thank you for visiting NileXProgramming!
 
 ## About Me
 I am a web developer skilled in HTML, CSS, javascript, PHP, MySQL, Bootstrap, laravel . I have worked on various projects that demonstrate my ability to create beautiful and functional websites.
@@ -12,4 +12,4 @@ I am a web developer skilled in HTML, CSS, javascript, PHP, MySQL, Bootstrap, la
 ## Contact
 Feel free to reach out to me through [my website](http://example.com) or connect with me on [GitHub](https://github.com/lamkaliew).
 
-Thank you for visiting NileXProgramming!
+Thank you for visiting NileX Programming!
