@@ -3,7 +3,6 @@ body{
     background-color: black;
     color: white;
     font-family: tahoma;
-    height: 1200px;
     letter-spacing: 1.5px;
 }
 /*this area is functions*/
@@ -71,6 +70,15 @@ body{
     font-size: 20px;
     letter-spacing: 1.5px;
 }
+.theme-sect .book-appointment{
+    width: 350px;
+    height: 50px;
+    background-color: green;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 16px;
+    border-radius: 15px
+}
 
 
 
@@ -81,6 +89,7 @@ body{
     background-color: white;
     height: 700px;
     color: green;
+    border: 2px solid red;
 }
 .about-sect .why{
     font-size: 29px;
@@ -99,56 +108,65 @@ body{
 }
 .about-sect .uniqueness .all-first{
     float: left;
-    margin-left: 50px;
-    margin-right: 50px;
-    word-wrap: break-word;
-    width: 300px;
+    width: 350px;
 }
 .about-sect .uniqueness .all-second{
     float: right;
-    margin-left: 50px;
-    margin-right: 50px;
-     width: 300px
+     width: 350px
 }
 .about-sect .uniqueness .all-first .unique-first,
 .about-sect .uniqueness .all-second .unique-second{
-    width: 200px;
+    width: 300px;
     height: 40px;
     background-color: red;
     color: black;
     padding-top: 12px;
     border-radius: 22px;
-    font-weight: bold;
     font-style: italic;
     font-size: 25px;
-    text-align: center;
-    
-   
+    text-align: center;   
 }
 
 
 
 
-
-
-
-
-
-
-
+/*contact us sect*/
+.contact-sect{
+    height: 500px;
+    background-image: url(images/contact-bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:1px solid white;    
+}
+.contact-sect .Address-phone,.contact-sect .Address-email{
+    width: 380px;
+    height: 300px;
+}
+.contact-sect .Address-phone{
+    float: right
+}
+.contact-sect .Address-email{
+    float: left
+}
+.contact-sect .Address-phone input{
+    height: 30px;
+    width: 250px;
+    margin: 5px;
+    display: inline-block;
+}
 
 
 
 
 
 .footer{
+    height: 250px;
+    width: 500px;
     text-align: center;
     color: white;
+    font-size: 16px;
     word-spacing: 3px;
     letter-spacing: 2px;
-}
-.footer .logo-footer{
-    font-size: 20px;
 }
 .footer svg{
     width: 30px;
@@ -165,22 +183,6 @@ body{
     border-radius: 50%;
     margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
