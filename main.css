@@ -152,6 +152,8 @@ body{
     height: 30px;
     width: 250px;
     margin: 5px;
+    border-radius:15px;
+    background-color: none;
 }
 
 
