@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://https://lamkaliew.github.io/NileXprogrammings//sitemap.xml
+Sitemap: https://https://https://lamkaliew.github.io/NileX-programmings///sitemap.xml

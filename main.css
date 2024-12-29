@@ -5,11 +5,14 @@ body{
     font-family: tahoma;
     letter-spacing: 1.5px;
 }
-/*this area is functions*/
+/*this area is for testings*/
+
 
 
 .container{
     width: 800px;
+    box-sizing: border-box;
+    padding: 10px;
     margin:0px auto;
 }
 .header{
@@ -23,6 +26,7 @@ body{
 .header .logo{
     float: left;
     font-style: italic;
+    float: left;
 }
 
 
@@ -35,17 +39,27 @@ body{
 .xcolor{
     color: red;
 }
+.header .drop-down-menu{
+    display: none;
+}
 .header .nav{
-    width: 500px;
+    width: 430px;
     margin-top: 9px;
     float: right;
 }
 .header .nav span{
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
     cursor: pointer;
     color: white;
     border: none;
+    padding: 6px;
+}
+.header .nav a{
+    text-decoration: none;
+}
+.header .nav span:hover{
+    background-color: green;
 }
 .header .nav .active{
     color: red;
@@ -120,8 +134,8 @@ body{
 .about-sect .uniqueness .all-second .unique-second{
     width: 300px;
     height: 40px;
-    background-color: red;
-    color: black;
+    background-color: black;
+    color: white;
     padding-top: 12px;
     border-radius: 22px;
     font-style: italic;
@@ -200,10 +214,80 @@ body{
 
 
 
+@media (max-width: 600px) {
+    .header .nav{
+        display: none;
+    }
+    .header .drop-down-menu{
+        display: block;
+        color: white;
 
+}
+    .header .drop-down-menu svg{
+        color: white;
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin-left: auto;
 
+}
+    .container{
+        width: 600px;
+    }
+    .theme-sect{
+        height: 610px
+    }
+    .theme-sect{
+    width: 600px;
+}
+    .about-sect{
+    background-color: white;
+    height: 900px;
+    color: black;
+}
+    .about-sect .uniqueness .all-first{
+    float: none;
+    width: 600px;
 
+}
+.about-sect .uniqueness .all-second{
+     float: none;
+     width: 600px;
+}
+    .contact-sect{
+    height: 770px;   
+}
+    .contact-sect .Address-email{
+        float: none;
+}
+    .contact-sect .Address-phone{
+    float: none;
+}
+    
+}
+/*
+@media (min-width: 400px) {
+    .header .nav{
+        display: none;
+    }
+    .header .drop-down-menu{
+        display: block;
+        color: white;
 
+}
+    .header .drop-down-menu svg{
+        color: white;
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin-left: auto;
+
+}
+    .container{
+        width: 600px;
+    }
+}
+*/
 
 
 
