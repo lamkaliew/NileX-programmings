@@ -132,7 +132,7 @@ body{
 
 /*contact us sect*/
 .contact-sect{
-    height: 500px;
+    height: 520px;
     background-image: url(images/contact-bg.avif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,11 +148,10 @@ body{
 .contact-sect .Address-phone{
     float: left
 }
-.contact-sect .Address-phone input{
+.contact-sect .Address-email input{
     height: 30px;
     width: 250px;
     margin: 5px;
-    display: inline-block;
 }
 
 
