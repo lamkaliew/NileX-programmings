@@ -44,6 +44,8 @@ body{
     margin-left: 25px;
     margin-right: 25px;
     cursor: pointer;
+    color: white;
+    border: none;
 }
 .header .nav .active{
     color: red;
@@ -72,10 +74,11 @@ body{
 }
 .theme-sect .book-appointment{
     width: 350px;
-    height: 50px;
+    height: 40px;
     background-color: green;
     text-align: center;
     font-size: 23px;
+    padding: 8px;
     padding-top: 16px;
     border-radius: 15px
 }
@@ -89,7 +92,6 @@ body{
     background-color: white;
     height: 700px;
     color: green;
-    border: 2px solid red;
 }
 .about-sect .why{
     font-size: 29px;
@@ -135,8 +137,7 @@ body{
     height: 520px;
     background-image: url(images/contact-bg.avif);
     background-repeat: no-repeat;
-    background-size: cover;
-    border:1px solid white;    
+    background-size: cover;   
 }
 .contact-sect .Address-phone,.contact-sect .Address-email{
     width: 380px;
@@ -150,10 +151,22 @@ body{
 }
 .contact-sect .Address-email input{
     height: 30px;
-    width: 250px;
-    margin: 5px;
-    border-radius:15px;
-    background-color: none;
+    width: 280px;
+    margin-bottom: 10px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.contact-sect .Address-email .submit{
+    width: 270px;
+    height: 30px;
+    margin:0px auto;
+    margin-top: 30px;
+    display: block;
+    background-color: green;
+    border-radius: 15px;
+    cursor: pointer;
+    color: red;
 }
 
 

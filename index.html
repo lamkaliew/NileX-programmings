@@ -14,16 +14,19 @@
     <body>
         
         
-        
+        <div id="disappear">
         <div class="header container">
             <div class="logo">
                 <span class="nile">Nile<span class="xcolor">X</span></span> <span class="prog">programmings</span>
             </div>
             <div class="nav">
-                <span class="active">Home</span>
-                <span>About</span>
-                <span>Work</span>
-                <span>Contact Us</span>
+               <a><span class="active">Home</span></a>
+                <a href="About.html"><span id="about-us">About</span></a>
+                <a href="About.html"><span>Work</span></a>
+                <a href="contact.html"><span>Contact Us</span></a>
+                
+                
+                
             </div>
         </div>
         
@@ -106,16 +109,16 @@
                 <div class="Address-email">
                     <h3>Fill This Form </h3>
                     <form>
-                    <label>Name:</label><br>
-                    <input type="text" id="name" name="name"><br>
-                    <label>Email:</label><br>
-                    <input type="email" id="email" name="email"><br>
-                    <label>Phone:</label><br>
-                    <input type="tel" id="phone" name="phone">
+                    <label>Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="name" name="name" placeholder="Write Your Name"><br>
+                    <label>Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="email" id="email" name="email" placeholder="Email Address"><br>
+                    <label>Phone:</label>&nbsp;&nbsp;&nbsp;
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
                         <br>
-                    <label>message:</label><br>
-                    <input type="text" id="email" name="email"><br>
-                    <input type="submit" id="submit" name="submit" value="submit">
+                    <label>Message:</label>
+                    <input type="text" id="message" name="message" placeholder="Write Your Message Here"><br>
+                    <input type="submit" class="submit" id="submit" name="submit" value="submit">
                         
                     </form>
                 </div>
@@ -151,7 +154,7 @@
             <p> Adung&trade; Corperation</p>   
         </div>
         
-        
+        </div>
         
         <script src="main.js"></script>
     </body>
