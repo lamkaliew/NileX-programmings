@@ -177,10 +177,10 @@ body{
     margin:0px auto;
     margin-top: 30px;
     display: block;
-    background-color: green;
+    background-color: white;
     border-radius: 15px;
     cursor: pointer;
-    color: red;
+    font-size: 19px;
 }
 
 
@@ -214,7 +214,7 @@ body{
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 460px) {
     .header .nav{
         display: none;
     }
@@ -232,13 +232,20 @@ body{
 
 }
     .container{
-        width: 600px;
+        width: 460px;
     }
     .theme-sect{
-        height: 610px
+        height: 510px
     }
     .theme-sect{
-    width: 600px;
+    width: 460px;
+}
+    .theme-sect .first-part{
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.theme-sect .second-part{
+    font-size: 15px;
 }
     .about-sect{
     background-color: white;
@@ -247,12 +254,12 @@ body{
 }
     .about-sect .uniqueness .all-first{
     float: none;
-    width: 600px;
+    width: 460px;
 
 }
 .about-sect .uniqueness .all-second{
      float: none;
-     width: 600px;
+     width: 460px;
 }
     .contact-sect{
     height: 770px;   
