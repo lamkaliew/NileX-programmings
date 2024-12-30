@@ -245,13 +245,13 @@ body{
 
 }
     .container{
-        width: 400px;
+        width: auto;
         box-sizing: border-box;
         margin-right: 5px;
     }
     .theme-sect{
         height: 550px;
-        width: 400px;
+        width: auto;
     }
     .theme-sect .first-part{
     font-size: 25px;
@@ -264,7 +264,7 @@ body{
     background-color: white;
     height: 1070px;
     color: black;
-    width: 400px;
+    width: auto;
 }
     .about-sect .about-message{
     font-size: 16px;
@@ -272,7 +272,7 @@ body{
 }
     .about-sect .uniqueness .all-first{
     float: none;
-/*    width: 400px;*/
+/*    width: auto;*/
 
 }
     .about-sect .uniqueness .all-first .unique-first,
@@ -281,19 +281,17 @@ body{
 }
 .about-sect .uniqueness .all-second{
      float: none;
-/*     width: 400px;*/
+/*     width: auto;*/
 }
 .contact-sect{
         height: 800px;
-        width: 400px;
+        width: auto;
 }
     .contact-sect .Address-email{
         float: none;
-        400px;
 }
     .contact-sect .Address-phone{
     float: none;
-        width: 400px;
 }
     .footer{
       height: 150px  
