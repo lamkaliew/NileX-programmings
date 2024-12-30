@@ -105,11 +105,12 @@ body{
 .about-sect{
     background-color: white;
     height: 700px;
-    color: green;
+    color: black;
 }
 .about-sect .why{
     font-size: 29px;
     padding-top: 40px;
+    padding-bottom: 0px;
     display: block;
     font-weight: bold;
     font-style: italic;
@@ -117,10 +118,9 @@ body{
 }
 .about-sect .about-message{
     font-size: 18px;
-    padding-top: 40px;
 }
 .about-sect .uniqueness{
-    margin-top: 50px
+    margin-top: 25px;
 }
 .about-sect .uniqueness .all-first{
     float: left;
@@ -140,7 +140,8 @@ body{
     border-radius: 22px;
     font-style: italic;
     font-size: 25px;
-    text-align: center;   
+    text-align: center;
+    margin:0px auto;
 }
 
 
@@ -235,11 +236,9 @@ body{
         width: 460px;
     }
     .theme-sect{
-        height: 510px
+        height: 510px;
+        width: 460px;
     }
-    .theme-sect{
-    width: 460px;
-}
     .theme-sect .first-part{
     font-size: 28px;
     margin-bottom: 50px;
@@ -249,26 +248,38 @@ body{
 }
     .about-sect{
     background-color: white;
-    height: 900px;
+    height: 1200px;
     color: black;
+    width: 460px;
+}
+    .about-sect .about-message{
+    font-size: 18px;
+        margin-bottom: 0px;
 }
     .about-sect .uniqueness .all-first{
     float: none;
     width: 460px;
 
 }
+    .about-sect .uniqueness .all-first .unique-first,
+.about-sect .uniqueness .all-second .unique-second{
+    margin:0px auto;
+}
 .about-sect .uniqueness .all-second{
      float: none;
      width: 460px;
 }
     .contact-sect{
-    height: 770px;   
+    height: 770px;
+        width: 460px;
 }
     .contact-sect .Address-email{
         float: none;
+        460px
 }
     .contact-sect .Address-phone{
     float: none;
+        width: 460px;
 }
     
 }
