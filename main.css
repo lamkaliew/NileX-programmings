@@ -4,6 +4,7 @@ body{
     color: white;
     font-family: tahoma;
     letter-spacing: 1.5px;
+    overflow: auto;
 }
 /*this area is for testings*/
 
@@ -121,7 +122,7 @@ body{
     font-size: 18px;
 }
 .about-sect .uniqueness{
-    margin-top: 25px;
+    margin-top: 5px;
 }
 .about-sect .uniqueness .all-first{
     float: left;
@@ -160,7 +161,7 @@ body{
     height: 300px;
 }
 .contact-sect .Address-email{
-    float: right
+    float: right;
 }
 .contact-sect .Address-phone{
     float: left
@@ -172,6 +173,7 @@ body{
     background-color: inherit;
     border: none;
     border-bottom: 2px solid white;
+    color: white;
 }
 .contact-sect .Address-email .submit{
     width: 270px;
@@ -183,6 +185,7 @@ body{
     border-radius: 15px;
     cursor: pointer;
     font-size: 19px;
+    color: black;
 }
 
 
@@ -220,6 +223,10 @@ body{
 
 
 
+
+
+
+
 @media (max-width: 375px) {
     .header .nav{
         display: none;
@@ -238,16 +245,16 @@ body{
 
 }
     .container{
-        width: 375px;
+        width: 400px;
         box-sizing: border-box;
         margin-right: 5px;
     }
     .theme-sect{
         height: 550px;
-        width: 375px;
+        width: 400px;
     }
     .theme-sect .first-part{
-    font-size: 28px;
+    font-size: 25px;
     margin-bottom: 50px;
 }
 .theme-sect .second-part{
@@ -257,7 +264,7 @@ body{
     background-color: white;
     height: 1070px;
     color: black;
-    width: 375px;
+    width: 400px;
 }
     .about-sect .about-message{
     font-size: 16px;
@@ -265,7 +272,7 @@ body{
 }
     .about-sect .uniqueness .all-first{
     float: none;
-    width: 375px;
+/*    width: 400px;*/
 
 }
     .about-sect .uniqueness .all-first .unique-first,
@@ -274,23 +281,23 @@ body{
 }
 .about-sect .uniqueness .all-second{
      float: none;
-     width: 375px;
+/*     width: 400px;*/
 }
-    p{
-        padding: 7px;
-    }
 .contact-sect{
-        height: 860px;
-        width: 375px;
+        height: 800px;
+        width: 400px;
 }
     .contact-sect .Address-email{
         float: none;
-        375px;
+        400px;
 }
     .contact-sect .Address-phone{
     float: none;
-        width: 375px;
+        width: 400px;
 }
+    .footer{
+      height: 150px  
+    }
     
 }
 
@@ -300,7 +307,7 @@ body{
 
 
 
-/*@media (max-width: 375px) {
+/*@media (max-width: 400px) {
     .header .nav{
         display: none;
     }
@@ -318,11 +325,11 @@ body{
 
 }
     .container{
-        width: 375px;
+        width: 400px;
     }
     .theme-sect{
         height: 480px;
-        width: 375px;
+        width: 400px;
     }
     .theme-sect .first-part{
     font-size: 28px;
@@ -335,7 +342,7 @@ body{
     background-color: white;
     height: 950px;
     color: black;
-    width: 375px;
+    width: 400px;
 }
     .about-sect .about-message{
     font-size: 18px;
@@ -343,7 +350,7 @@ body{
 }
     .about-sect .uniqueness .all-first{
     float: none;
-    width: 375px;
+    width: 400px;
 
 }
     .about-sect .uniqueness .all-first .unique-first,
@@ -352,19 +359,19 @@ body{
 }
 .about-sect .uniqueness .all-second{
      float: none;
-     width: 375px;
+     width: 400px;
 }
     .contact-sect{
     height: 770px;
-        width: 375px;
+        width: 400px;
 }
     .contact-sect .Address-email{
         float: none;
-        375px
+        400px
 }
     .contact-sect .Address-phone{
     float: none;
-        width: 375px;
+        width: 400px;
 }
     
 }*/
