@@ -1,21 +1,19 @@
-///* globe console document*/
+/* global  document, console*/
 //
-//var AboutUs = document.getElementById("about-us");
-//var Disappearing = document.getElementById("disappear");
-//var GoBack = document.getElementById("go-back");
-//
-//
-//console.log(Disappearing);
-//AboutUs.onclick = function (){
-//    "use strick";
-//    Disappearing.style.display = "none";
-////    console.log("hello");
-//    
-//};
+var theMenu = document.getElementById("dropDownMenu");
+var Disappearing = document.getElementById("disappear");
+var openMenu = document.getElementById("drop-down-menu");
+
+
+openMenu.onclick = function () {
+    "use strict";
+    Disappearing.style.display = "none";
+    theMenu.style.display = "block";
+    console.log("hello");
+    
+};
 //GoBack.onclick = function (){
 //    "use strick";
 //    console.log("hello");
-//    Disappearing.style.display = "none";
-//    
-//    
-//};
+//    Disappearing.style.display = "none";    
+//}

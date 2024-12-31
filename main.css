@@ -32,6 +32,36 @@ body{
 .header .drop-down-menu{
     display: none;
 }
+.drop-down{
+                box-sizing: border-box;
+                width: 450px;
+                height: 300px;
+                color: white;
+                font-family: tahoma;
+                font-size: 20px;
+                font-weight: bold;
+                padding: 10px;
+                border: 1px solid black;
+                display: none;
+            }
+            .drop-down span{
+                box-sizing: border-box;
+                display: block;
+                text-transform: uppercase;
+                width: 400px;
+                height: 40px;
+                background-color: black;
+                border-radius: 12px;
+                margin-top: 10px;
+                padding-top: 8px;
+                padding-bottom: 5px;
+                padding-left: 15px;
+                cursor: pointer;  
+            }
+.drop-down span a{
+    text-decoration: none;
+    color: white;
+}
 .header .nav{
     width: 430px;
     margin-top: 9px;
@@ -223,15 +253,15 @@ body{
     .header{
         width: 400px;
     }
-    .header .nav{
+    #navbar{
         display: none;
     }
-    .header .drop-down-menu{
+    #drop-menu{
         display: block;
         color: white;
 
 }
-    .header .drop-down-menu svg{
+    #drop-menu svg{
         color: white;
         width: 50px;
         height: 50px;
@@ -374,7 +404,6 @@ body{
 }
     .footer{
         height: 150px;
-        width: 750px
     }
     
     
