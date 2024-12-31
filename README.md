@@ -10,6 +10,6 @@ I am a web developer skilled in HTML, CSS, javascript, PHP, MySQL, Bootstrap, la
 - **many more**: Description of Project 2.
 
 ## Contact
-Feel free to reach out to me through [NileX programmings](https://lamkaliew.github.io/NileX-programmings/index.html) or connect with me on [GitHub](https://github.com/lamkaliew).
+Feel free to reach out to me through [NileX programmings](https://lamkaliew.github.io/NileX-programmings/index.html) or connect with me on [lam kaliew](https://github.com/lamkaliew).
 
 Thank you for visiting NileX Programming!
