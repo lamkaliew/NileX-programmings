@@ -218,7 +218,8 @@ body{
 
 @media (max-width: 375px) {
     .header{
-        width: 375px;}
+        width: 395px;
+    }
     .header .nav{
         display: none;
     }
@@ -236,13 +237,13 @@ body{
 
 }
     .container{
-        width: 380px;
-/*        box-sizing: border-box;*/
+        width: 395px;
+        box-sizing: border-box;
         margin-right: 5px;
     }
     .theme-sect{
         height: 550px;
-        width: 400px;
+        width: 395px;
     }
     .theme-sect .first-part{
     font-size: 25px;
@@ -255,7 +256,7 @@ body{
     background-color: white;
     height: 1070px;
     color: black;
-    width: 400px;
+    width: 395px;
 }
     .about-sect .about-message{
     font-size: 16px;
@@ -272,20 +273,20 @@ body{
 }
 .about-sect .uniqueness .all-second{
      float: none;
-     width: 400px;
+     width: 395px;
 }
 .contact-sect{
         height: 800px;
-        width: 400px;
+        width: 395px;
 }
     .contact-sect .Address-email{
         float: none;
 }
     .contact-sect .Address-phone{
-    float: none;
+        float: none;
 }
     .footer{
-      height: 150px  
+        height: 150px; 
     }
     
 }
@@ -295,7 +296,80 @@ body{
 /*for smaller screens*/
 
 
+@media (min-width: 300px) and (max-width: 340px) {
+    .header{
+        width: 335px;
+    }
+    .header .nav{
+        display: none;
+    }
+    .header .drop-down-menu{
+        display: block;
+        color: white;
 
+}
+    .header .drop-down-menu svg{
+        color: white;
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin-left: auto;
+
+}
+    .container{
+        width: 335px;
+        box-sizing: border-box;
+        margin-right: 5px;
+    }
+    .theme-sect{
+        height: 550px;
+        width: 335px;
+    }
+    .theme-sect .first-part{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.theme-sect .second-part{
+    font-size: 15px;
+}
+    .about-sect{
+    background-color: white;
+    height: 1070px;
+    color: black;
+    width: 335px;
+}
+    .about-sect .about-message{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+    .about-sect .uniqueness .all-first{
+    float: none;
+/*    width: auto;*/
+
+}
+    .about-sect .uniqueness .all-first .unique-first,
+.about-sect .uniqueness .all-second .unique-second{
+    margin:0px auto;
+}
+.about-sect .uniqueness .all-second{
+     float: none;
+     width: 335px;
+}
+.contact-sect{
+        height: 800px;
+        width: 335px;
+}
+    .contact-sect .Address-email{
+        float: none;
+}
+    .contact-sect .Address-phone{
+        float: none;
+}
+    .footer{
+        height: 150px; 
+    }
+    
+}
 /*@media (max-width: 400px) {
     .header .nav{
         display: none;
@@ -386,6 +460,12 @@ body{
         width: 600px;
     }
 }
+
+
+
+@media (min-width: 768px) and (max-width: 1170px) {
+    /* screen width is between 768px (medium) and 1170px (large) */
+  }
 */
 
 
