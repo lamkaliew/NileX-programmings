@@ -61,13 +61,16 @@ body{
 .theme-sect{
     background-image: url(./images/theme-bg.jpg);
     background-repeat: no-repeat;
-    border: 1px solid black;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
     background-size: cover;
     height: 460px;
+    margin-top: 15px
 }
 .theme-sect .first-part{
     font-size: 33px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 50px;
     font-style: italic;
     letter-spacing: 1.5px;
@@ -216,7 +219,7 @@ body{
 
 
 
-@media (min-width: 340px) and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 425px) {
     .header{
         width: 400px;
     }
@@ -294,78 +297,19 @@ body{
 /*for smaller screens*/
 
 
-@media (min-width: 300px) and (max-width: 340px) {
-    .header{
-        width: 335px;
-    }
+/*
+@media (min-width: 425px) and (max-width: 768px) {
+    
     .header .nav{
-        display: none;
+        display: block;
     }
     .header .drop-down-menu{
-        display: block;
+        display: none;
         color: white;
 
 }
-    .header .drop-down-menu svg{
-        color: white;
-        width: 50px;
-        height: 50px;
-        display: block;
-        margin-left: auto;
-
-}
-    .container{
-        width: 335px;
-        box-sizing: border-box;
-    }
-    .theme-sect{
-        height: 550px;
-        width: 335px;
-    }
-    .theme-sect .first-part{
-    font-size: 15px;
-}
-    .theme-sect .second-part{
-    font-size: 15px;
-}
-    .about-sect{
-    background-color: white;
-    height: 1010px;
-    color: black;
-    width: 335px;
-}
-    .about-sect .about-message{
-    font-size: 16px;
-    margin-bottom: 0px;
-}
-    .about-sect .uniqueness .all-first{
-    float: none;
-/*    width: auto;*/
-
-}
-    .about-sect .uniqueness .all-first .unique-first,
-.about-sect .uniqueness .all-second .unique-second{
-    margin:0px auto;
-}
-.about-sect .uniqueness .all-second{
-        float: none;
-        width: 335px;
-        float: none;
-}
-.contact-sect{
-        height: 800px;
-        width: 335px;
-        float: none;
-}
-    .contact-sect .Address-email{
-        float: none;
-}
-    .contact-sect .Address-phone{
-        float: none;
-}
-    .footer{
-        height: 150px; 
-    }
+*/
+    
     
 }
 /*@media (max-width: 400px) {
@@ -465,29 +409,3 @@ body{
     /* screen width is between 768px (medium) and 1170px (large) */
   }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
