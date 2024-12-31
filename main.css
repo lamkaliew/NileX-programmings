@@ -216,7 +216,7 @@ body{
 
 
 
-@media (min-width: 340px) and (max-width: 840px) {
+@media (min-width: 340px) and (max-width: 800px) {
     .header{
         width: 400px;
     }
@@ -242,19 +242,19 @@ body{
         margin-right: 5px;
     }
     .theme-sect{
-        height: 550px;
+        height: 460px;
         width: 400px;
     }
     .theme-sect .first-part{
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 50px;
 }
-.theme-sect .second-part{
+    .theme-sect .second-part{
     font-size: 15px;
 }
     .about-sect{
     background-color: white;
-    height: 1010px;
+    height: 1050px;
     color: black;
     width: 400px;
 }
@@ -264,7 +264,6 @@ body{
 }
     .about-sect .uniqueness .all-first{
     float: none;
-/*    width: auto;*/
 
 }
     .about-sect .uniqueness .all-first .unique-first,
@@ -273,7 +272,6 @@ body{
 }
 .about-sect .uniqueness .all-second{
      float: none;
-     width: 400px;
 }
 .contact-sect{
         height: 800px;
@@ -319,17 +317,15 @@ body{
     .container{
         width: 335px;
         box-sizing: border-box;
-        margin-right: 5px;
     }
     .theme-sect{
         height: 550px;
         width: 335px;
     }
     .theme-sect .first-part{
-    font-size: 25px;
-    margin-bottom: 50px;
+    font-size: 15px;
 }
-.theme-sect .second-part{
+    .theme-sect .second-part{
     font-size: 15px;
 }
     .about-sect{
