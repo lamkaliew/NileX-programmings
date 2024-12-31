@@ -297,18 +297,86 @@ body{
 /*for smaller screens*/
 
 
-/*
-@media (min-width: 425px) and (max-width: 768px) {
-    
-    .header .nav{
-        display: block;
+
+@media (min-width: 426px) and (max-width: 751px) {
+    .header{
+        width: 750px;
     }
-    .header .drop-down-menu{
+    .header .nav{
         display: none;
+    }
+    .header .nav span{
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+    .header .drop-down-menu{
+        display: block;
         color: white;
 
 }
-*/
+    .header .drop-down-menu svg{
+        color: white;
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin-left: auto;
+
+}
+    .container{
+        width:750px;
+        box-sizing: border-box;
+        margin-right: 5px;
+    }
+    .theme-sect{
+        height: 310px;
+        width: 750px;
+    }
+    .theme-sect .first-part{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+    .theme-sect .second-part{
+    font-size: 15px;
+}
+    .about-sect{
+    background-color: white;
+    height: 670px;
+    color: black;
+    width: 750px;
+}
+    .about-sect .about-message{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+    .about-sect .uniqueness .all-first{
+    float: none;
+        width: 750px
+
+}
+    .about-sect .uniqueness .all-first .unique-first,
+.about-sect .uniqueness .all-second .unique-second{
+    margin:0px auto;
+}
+.about-sect .uniqueness .all-second{
+     float: none;
+    width: 750px
+}
+.contact-sect{
+        height: 800px;
+        width: 750px;
+}
+    .contact-sect .Address-email{
+        float: none;
+}
+    .contact-sect .Address-phone{
+        float: none;
+}
+    .footer{
+        height: 150px;
+        width: 750px
+    }
+    
     
     
 }
