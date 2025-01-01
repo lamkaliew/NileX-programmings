@@ -298,9 +298,13 @@ body{
 
 
 @media (min-width: 250px) and (max-width: 425px) {
-    .container{
+    body{
         width: 100%;
-        max-width: 430px;
+        max-width: 440px;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 430px;
     }
     .header{
         width: 430px;
@@ -314,14 +318,12 @@ body{
     }
     .theme-sect{
         width: 430px;
-        height: 600px;
+        height: 550px;
     }
     .theme-sect .book-appointment{
         width: 270px;
     }
-    .about-sect{
-        height: 1100px;
-    }
+    
     .about-sect .uniqueness .all-first{
         float: none;
         width: 430px;
@@ -337,7 +339,7 @@ body{
     }
     .about-sect{
         background-color: white;
-        height: 1100px;
+        height: 950px;
         color: black;
         width: 430px;
     }
@@ -365,7 +367,7 @@ body{
 @media (min-width: 426px) and (max-width: 700px) {
     .container{
         width: 100%;
-        max-width: 700px;
+        max-width: 710px;
     }
     /* .container{
         width: 710px;
@@ -388,7 +390,7 @@ body{
     width: 350px;
 }
 .about-sect{
-    height: 1100px;
+    height: 900px;
     width: 710px;
 }
 .about-sect .uniqueness .all-first{
