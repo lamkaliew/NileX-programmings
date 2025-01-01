@@ -298,8 +298,10 @@ body{
 
 
 @media (min-width: 250px) and (max-width: 425px) {
-    .container{
+    body{
         width: 100%;
+    }
+    .container{
         max-width: 430px;
     }
     .header{
@@ -363,12 +365,14 @@ body{
 
 
 @media (min-width: 426px) and (max-width: 700px) {
-    .header{
-        width: 710px;
+    body{
+        width: 100%;
     }
     .container{
-        width: 100%;
-        max-width: 710px;
+        width: 710px;
+    }
+    .header{
+        width: 710px;
     }
     .header .nav{
         display: block;
