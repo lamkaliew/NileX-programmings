@@ -299,7 +299,8 @@ body{
 
 @media (min-width: 250px) and (max-width: 425px) {
     .container{
-        width: 430px;
+        width: 100%;
+        max-width: 430px;
     }
     .header{
         width: 430px;
@@ -363,8 +364,12 @@ body{
 
 @media (min-width: 426px) and (max-width: 700px) {
     .container{
-        width: 710px;
+        width: 100%;
+        max-width: 700px;
     }
+    /* .container{
+        width: 710px;
+    } */
     .header{
         width: 710px;
     }
