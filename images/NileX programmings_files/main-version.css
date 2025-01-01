@@ -114,72 +114,25 @@ body{
 
 
 
-/* .about-sect{
+.about-sect{
     background-color: white;
     height: 1100px;
     color: black;
 }
 .about-sect .why{
     font-size: 29px;
-    margin: 20px;
+    padding: 10px;
     font-weight: bold;
     font-style: italic;
     letter-spacing: 3px;
 }
 .about-sect .about-message{
     font-size: 18px;
-    margin: 20px;
-}
-.about-sect .uniqueness{
-    font-size: 18px;
-}
-.about-sect .uniqueness .all-first{
-    float: left;
-    width: 330px;
-    margin-left: 20px;
-}
-.about-sect .uniqueness .all-second{
-    float: right;
-     width: 330px;
-     margin-right: 40px;
-}
-.about-sect .uniqueness .all-first .unique-first,
-.about-sect .uniqueness .all-second .unique-second{
-    width: 300px;
-    height: 40px;
-    background-color: black;
-    color: white;
-    padding-top: 12px;
-    border-radius: 22px;
-    font-style: italic;
-    font-size: 18px;
-    text-align: center;
-    margin:0px auto;
-} */
-
-.about-sect{
-    background-color: white;
-    height: 700px;
-    color: black;
-    border: 2px solid white;
-}
-.about-sect .why{
-    font-size: 29px;
-    padding-top: 40px;
-    padding-bottom: 0px;
-    display: block;
-    font-weight: bold;
-    font-style: italic;
-    letter-spacing: 3px;
-}
-.about-sect .about-message{
-    font-size: 18px;
-    box-sizing: border-box;
     margin: 10px;
-    padding: 5px;
 }
 .about-sect .uniqueness{
-    margin-top: 5px;
+    margin: 10px;
+    font-size: 18px;
 }
 .about-sect .uniqueness .all-first{
     float: left;
@@ -187,7 +140,7 @@ body{
 }
 .about-sect .uniqueness .all-second{
     float: right;
-     width: 350px
+     width: 350px;
 }
 .about-sect .uniqueness .all-first .unique-first,
 .about-sect .uniqueness .all-second .unique-second{
@@ -198,89 +151,9 @@ body{
     padding-top: 12px;
     border-radius: 22px;
     font-style: italic;
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
     margin:0px auto;
-}
-
-
-
-
-/*contact us sect*/
-.contact-sect{
-    height: 520px;
-    background-image: url(images/contact-bg.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid white;  
-}
-.contact-sect .Address-phone,.contact-sect .Address-email{
-    width: 380px;
-    height: 300px;
-}
-.contact-sect .Address-email{
-    float: right;
-}
-.contact-sect .Address-phone{
-    float: left
-}
-.contact-sect .Address-email input{
-    height: 30px;
-    width: 280px;
-    margin-bottom: 10px;
-    background-color: inherit;
-    border: none;
-    border-bottom: 2px solid white;
-    color: white;
-}
-.contact-sect .Address-email .submit{
-    width: 270px;
-    height: 30px;
-    margin:0px auto;
-    margin-top: 30px;
-    display: block;
-    background-color: white;
-    border-radius: 15px;
-    cursor: pointer;
-    font-size: 19px;
-    color: black;
-}
-
-
-
-
-
-
-
-
-
-.footer{
-    height: 150px;
-    width: 500px;
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    word-spacing: 3px;
-    letter-spacing: 2px;
-}
-.footer svg{
-    width: 30px;
-    height: 30px;
-    margin-left: 18px;
-    margin-right: 18px;
-    margin-top: 5px;
-    cursor: pointer;
-}
-.footer img{
-    width: 60px;
-    height: 60x;
-    align-items: center;
-    border-radius: 50%;
-    margin-top: 8px;
-}
-.footer p{
-    margin-top: 2px;
-    display: inline-block;
 }
 
 
@@ -314,7 +187,7 @@ body{
         height: 600px;
     }
     .theme-sect .book-appointment{
-        width: 270px;
+        width: 300px;
     }
     .about-sect{
         height: 1100px;
@@ -330,25 +203,13 @@ body{
          width: 430px;
          box-sizing: border-box;
          padding: 5px;
-         margin-right: 5px;
+         margin-right: 5px;;
     }
     .about-sect{
         background-color: white;
-        height: 1100px;
+        height: 1000px;
         color: black;
         width: 430px;
-    }
-    .contact-sect{
-        height: 800px;
-            width: 430px;
-        }
-    .contact-sect .Address-email{
-        float: none;
-        margin: 15px;
-    }
-    .contact-sect .Address-phone{
-        float: none;
-        margin: 15px;
     }
 
 }
@@ -361,10 +222,10 @@ body{
 
 @media (min-width: 426px) and (max-width: 700px) {
     .header{
-        width: 710px;
+        width: 730px;
     }
     .container{
-        width: 710px;
+        width: 730px;
     }
     .header .nav{
         display: block;
@@ -374,15 +235,14 @@ body{
         color: white;  
 }
 .theme-sect{
-    width: 710px;
+    width: 730px;
     height: 400px;
 }
 .theme-sect .book-appointment{
     width: 350px;
 }
 .about-sect{
-    height: 1100px;
-    width: 710px;
+    height: 990px;
 }
 .about-sect .uniqueness .all-first{
     float: left;
@@ -398,20 +258,8 @@ body{
 }
 .about-sect{
     background-color: white;
-    height:690px;
+    height:500px;
     color: black;
-    width: 730px;
-}
-.contact-sect{
-    height: 800px;
-        width: 730px;
-    }
-.contact-sect .Address-email{
-    float: none;
-    margin: 15px;
-}
-.contact-sect .Address-phone{
-    float: none;
-    margin: 15px;
+    width: 700px;
 }
 }
