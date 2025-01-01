@@ -1,8 +1,10 @@
+
 body{
     background-color: black;
     color: white;
     font-family: Tahoma;
     letter-spacing: 1.5px;
+    overflow-x: hidden;
 }
 .drop-down-menu{
     display: block;
@@ -297,7 +299,8 @@ body{
 
 @media (min-width: 250px) and (max-width: 425px) {
     .container{
-        width: 430px;
+        width: 100%;
+        max-width: 430px;
     }
     .header{
         width: 430px;
@@ -340,7 +343,7 @@ body{
     }
     .contact-sect{
         height: 800px;
-            width: 430px;
+        width: 430px;
         }
     .contact-sect .Address-email{
         float: none;
@@ -364,7 +367,8 @@ body{
         width: 710px;
     }
     .container{
-        width: 710px;
+        width: 100%;
+        max-width: 710px;
     }
     .header .nav{
         display: block;
