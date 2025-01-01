@@ -2,7 +2,7 @@
 body{
     background-color: black;
     color: white;
-    font-family: tahoma;
+    font-family: Tahoma;
     letter-spacing: 1.5px;
 }
 .container{
@@ -215,7 +215,7 @@ body{
 
 
 .footer{
-    height: 250px;
+    height: 150px;
     width: 500px;
     text-align: center;
     color: white;

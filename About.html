@@ -1,25 +1,141 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>NileX programmings</title>
+        <title>NileX programmings/About</title>
         <meta name="description" content="NileX a dynamic technology company specializing in website and mobile application development. Focused on delivering secure, responsive, and user-friendly solutions, NileX Programmings leverages the latest technologies to create, design, develop, and maintain digital platforms to meet the unique needs of its clients. empowering local businesses with innovative digital tools for growth and success.">
         <meta name="keywords" content="relevant, Nile, nile programming agency, nile coding, nile web development, web development">
         <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="main.css">
 <style>
-.About-style{
-border: 2px solid green;
-width:400px;
-margin-bottom:15px;
+    
+    body{
+        background-color: black;
+        color: white;
+        font-family: Tahoma;
+    }
+
+    .About-container{
+        width:840px;
+        margin:0px auto;
+        
+    }
+    
+    .About-style{
+        border: 2px solid white;
+        border-radius: 10px;
+        width:390px;
+        height: 140px;
+        padding: 7px;
+        margin: 5px;
+        float: left
+    }
+    
+    .About-style h3, h2,h1{
+        color: green;
+    }
+    .About-style h3{
+        margin-top: 2px;
+    }
+    float-left{
+        float: left
+    }
+    float-right{
+        float: right
+    }
+    
+/*    header style*/
+    .About-header{
+    width: 840px;
+    height: 45px;
+    font-weight: bold;
+        padding-top: 5px;
 }
+    .About-header .logo{
+    float: left;
+    font-style: italic;
+}
+    .About-header .prog{
+    font-style: italic;
+}
+.About-header .logo .nile{
+    font-size: 33px;
+}
+.xcolor{
+    color: red;
+}
+    .About-header .nav{
+    width: 400px;
+        font-size: 17px;
+    margin-top: 9px;
+    float: right;
+}
+.About-header .nav span{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+    padding: 6px;
+}
+.About-header .nav a{
+    text-decoration: none;
+}
+.About-header .nav span:hover{
+    background-color: green;
+}
+.About-header .nav .active{
+    color: red;
+    border-bottom: 2px solid green;
+}
+    #drop-menu svg{
+        color: white;
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin-left: auto;
+}
+    .About-header .drop-down-menu{
+    display: none;
+}
+    .About-com{
+        box-sizing: border-box;
+        padding: 5px;
+    }
+    @media (max-width: 425px) {
+    .About-container{
+        width:430px;
+        
+    }   
+        .nav{
+            display: none;
+        }
+        .About-style{
+        width:430px;
+    }
+     #drop-menu svg{
+        
+        display: block;
+}
+         .About-header{
+             width: 430px;}
+    .About-header .drop-down-menu{
+    display: block;
+}
+    float-left{
+        float: none
+    }
+    float-right{
+        float: none
+    }
+        
+    }
+
+   
 </style>
 
     </head>
     <body>
-    <div class="container">
-        <div class="header container">
+    <div class="About-container">
+        <div class="About-header About-container">
             <div>
                 <div class="logo">
                     <span class="nile">Nile<span class="xcolor">X</span></span> <span class="prog">programmings</span>
@@ -31,69 +147,81 @@ margin-bottom:15px;
                 </div>
                 
             </div>
-            <div id="navbar" class="nav">
+            <div id=" About-navbar" class="nav">
                <a><span class="active">Home</span></a>
                 <a href="About.html"><span id="about-us">About</span></a>
                 <a href="About.html"><span>Work</span></a>
-                <a href="contact.html"><span>Contact Us</span></a>   
+                <a href="contact.html"><span>Contact Us</span></a> 
             </div>
         </div>
-    <hr>
  </div>
-<div class="container">
-<h2>NileX Programmings</h2> is a dynamic technology company specializing in comprehensive website and mobile application development. We are committed to delivering secure, responsive, and user-friendly digital solutions by utilizing the latest technologies and industry best practices. Our end-to-end services cover the full development lifecycle—from concept and design to creation, deployment, and ongoing maintenance.
-</div>
-<div class="container About-style">
- <h2>Our Services Include</h2>
-<h3>Custom Web Development</h3> We build fully customized websites that are scalable, high-performance, and tailored to meet the unique needs of each business. Whether you need a corporate site, e-commerce platform, or portfolio site, we create digital solutions that resonate with your audience.
-</div>
-
-<div class="container About-style"> 
-<h3>Mobile App Development</h3> Our team develops native and cross-platform mobile applications for both iOS and Android. From user-friendly interfaces to seamless functionality, we ensure your app delivers a smooth, intuitive experience.
-</div>
-
-<div class="container About-style">
-<h3>Web Applications</h3> We specialize in developing robust, interactive web applications that enhance functionality and user engagement. Whether you need a business management system, e-commerce platform, or a data-driven solution, we bring your ideas to life.</div>
-
-
-<div class="container About-style">
-<h3>Responsive Design</h3> We design mobile-first websites that adapt seamlessly to any device—ensuring an optimal user experience across smartphones, tablets, and desktops.</div>
-
-
-<div class="container About-style">
-<h3>UI/UX Design</h3> Our expert designers create aesthetically appealing and highly functional user interfaces. We prioritize user experience, ensuring that your customers have a seamless interaction with your digital platform.</div>
-
-
-<div class="container About-style">
-<h3>E-Commerce Solutions</h3> We develop e-commerce websites and platforms that are not only visually appealing but also highly functional, ensuring a secure and efficient shopping experience for your customers.</div>
-
-
-<div class="container About-style">
-<h3>API Development & Integration</h3> We design and integrate APIs to enable seamless connectivity between your website, mobile app, and third-party services or databases.</div>
-
-
-<div class="container About-style">
-<h3>SEO & Digital Marketing</h3> We offer Search Engine Optimization (SEO) services to improve your site's visibility and ranking, alongside digital marketing strategies to help your business reach and engage your target audience.</div>
-
-
-<div class="container About-style">
-<h3>Website Maintenance & Support</h3> We provide ongoing support and maintenance to ensure that your website or app remains up-to-date, secure, and optimized for performance.
-</div>
-
-
-<div class="container About-style">
-<h3>Security Solutions</h3> We prioritize the security of your website and mobile applications by implementing the latest security protocols, encryption techniques, and regular vulnerability assessments to safeguard your business data and customer privacy.
-</div>
-
-
-
-<div class="container About-style">
-At NileX Programmings, we don’t just build websites and apps—we create digital ecosystems that help businesses innovate, scale, and stay ahead of the competition. Our dedicated team of developers, designers, and strategists works closely with clients to deliver solutions that are not only technically robust but also aligned with business goals.
-</div>
-
-<!--        <a href="index.html"  id="go-back" class="container" id="return-back">Back</a>-->
+        
+        <hr>
+        
+        
+<div class="About-container About-container-box">
+    <div class="About-com">
+    <h2>NileX Programmings</h2> Is a dynamic technology company specializing in comprehensive website and mobile application development. We are committed to delivering secure, responsive, and user-friendly digital solutions by utilizing the latest technologies and industry best practices. Our end-to-end services cover the full development lifecycle—from concept and design to creation, deployment, and ongoing maintenance.
+    <h2>Our Services Include</h2>
     </div>
-        <script src="main.js"></script>
+<!--
+    <div class="About-style float-left">
+    <h3>Custom Web Development</h3> We build fully customized websites that are scalable, high-performance, and tailored to meet the unique needs of each business. Whether you need a corporate site, e-commerce platform, or portfolio site, we create digital solutions that resonate with your audience.
+    </div>
+-->
+
+    <div class="About-style float-right"> 
+    <h3>Mobile App Development</h3> Our team develops native and cross-platform mobile applications for both iOS and Android. From user-friendly interfaces to seamless functionality, we ensure your app delivers a smooth, intuitive experience.
+    </div>
+
+    <div class="About-style float-left">
+    <h3>Web Applications</h3> We specialize in developing robust, interactive web applications that enhance functionality and user engagement. Whether you need a business management system, e-commerce platform, or a data-driven solution, we bring your ideas to life.</div>
+
+
+    <div class="About-style float-right">
+    <h3>Responsive Design</h3> We design mobile-first websites that adapt seamlessly to any device—ensuring an optimal user experience across smartphones, tablets, and desktops.</div>
+
+
+    <div class="About-style float-left">
+    <h3>UI/UX Design</h3> Our expert designers create aesthetically appealing and highly functional user interfaces. We prioritize user experience, ensuring that your customers have a seamless interaction with your digital platform.</div>
+
+
+    <div class="About-style float-right">
+    <h3>E-Commerce Solutions</h3> We develop e-commerce websites and platforms that are not only visually appealing but also highly functional, ensuring a secure and efficient shopping experience for your customers.</div>
+
+
+<!--
+    <div class="About-style float-left">
+    <h3>API Development & Integration</h3> We design and integrate APIs to enable seamless connectivity between your website, mobile app, and third-party services or databases.</div>
+-->
+
+
+<!--
+    <div class="About-style float-right">
+    <h3>SEO & Digital Marketing</h3> We offer Search Engine Optimization (SEO) services to improve your site's visibility and ranking, alongside digital marketing strategies to help your business reach and engage your target audience.</div>
+-->
+
+
+    <div class="About-style float-left">
+    <h3>Website Maintenance & Support</h3> We provide ongoing support and maintenance to ensure that your website or app remains up-to-date, secure, and optimized for performance.
+    </div>
+
+
+    <div class="About-style float-right">
+    <h3>Security Solutions</h3> We prioritize the security of your website and mobile applications by implementing the latest security protocols, encryption techniques, and regular vulnerability assessments to safeguard your business data and customer privacy.
+    </div>
+
+
+
+<!--
+    <div class="About-style float-left">
+    At NileX Programmings, we don’t just build websites and apps—we create digital ecosystems that help businesses innovate, scale, and stay ahead of the competition. Our dedicated team of developers, designers, and strategists works closely with clients to deliver solutions that are not only technically robust but also aligned with business goals.
+    </div>
+-->
+    
+</div>
+
+<!--<a href="index.html"  id="go-back" class="container" id="return-back">Back</a>-->
     
     </body>
 </html>
