@@ -1,103 +1,243 @@
-
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 1.3px;
+    
+}
+@media (max-width:600px) {   
+
+/*
+    .container{
+        display: none; 
+
+    }
+*/
+
+    .header{
+        height: 40px;
+        padding-left: 5px;
+        padding-right: 5px; 
+    }
+    .header .navbar{
+        display: none;
+
+    }
+    .header .company-logo{
+        float: left;
+
+    }
+    .header .company-logo .nile{
+        display: inline;
+
+    }
+    .header .company-logo .prog{
+        display: inline;
+
+    }
+    .xcolor{
+        color: red;
+    }
+    .header .drop-down-menu{
+        float: right;
+    /*    display: ;*/
+    }
+    .header .drop-down-menu svg{
+        color: white;
+        width: 45px;
+        height: 45px;
+        font-weight: bold;
+    }
+    .theme-sect{
+        background-image: url(./images/theme-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block; 
+    }
+    .theme-sect .book-appointment-button{
+        width: 300px;
+        height: 50px;
+        box-sizing: border-box;
+        background-color: green;
+        text-align: center;
+        font-size: 23px;
+        padding: 8px;
+        padding-top: 10px;
+        border-radius: 15px;
+
+        margin: 0px auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .about-sect{
+        background-color: white;
+        color: black;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 0px;
+        display: inline-block; 
+    }
+    .about-sect h3{
+        color: green;
+    }
+    .contact-sect{
+        background-image: url(images/contact-bg.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block; 
+    }
+    .contact-sect .Address-email input{
+        height: 30px;
+        width: 240px;
+        background-color: inherit;
+        border: none;
+        border-bottom: 2px solid white;
+        color: white;
+    }
+    .contact-sect .Address-email .submit{
+        width: 270px;
+        height: 30px;
+        margin:0px auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: block;
+        background-color: white;
+        border-radius: 15px;
+        cursor: pointer;
+        font-size: 19px;
+        color: black;
+    }
+    .footer{
+        height: 150px;
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+    .footer svg{
+        width: 30px;
+        height: 30px;
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    /* bellow disappear elements */
+    .drop-down{
+        box-sizing: border-box;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+        border: 1px solid white;
+        display: none;
+/*        display: none;*/
+    }
+    .drop-down span{
+        box-sizing: border-box;
+        display: block;
+        text-transform: uppercase;
+        border-radius: 12px;
+        margin-top: 10px;
+        cursor: pointer;  
+    }
+    .drop-down span a{
+    text-decoration: none;
     color: white;
-    font-family: Tahoma;
-    letter-spacing: 1.5px;
-    overflow-x: hidden;
+    }
+
 }
-.drop-down-menu{
-    display: block;
-}
-.header .nav{
-    display: block;
-}
+
+
+
+
+/*for large screens and destop*/
+
+
+
+@media (min-width:600px) and (max-width:800px) {   
+
+/*
 .container{
-    width: 800px;
-    margin:0px auto;
+    display: ; 
+
 }
+*/
+    
 .header{
-    width: 800px;
-    height: 45px;
-    font-weight: bold;
-    color: white;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px; 
 }
-.header .logo{
+/* .header .navbar{
+   display: none;
+    
+} */
+.header .company-logo{
     float: left;
-    font-style: italic;
-    color: white;
+
 }
-.header .prog{
-    font-style: italic;
+.header .company-logo .nile{
+    display: inline;
+
 }
-.header .logo .nile{
-    font-size: 33px;
+.header .company-logo .prog{
+    display: inline;
+
 }
 .xcolor{
     color: red;
 }
-.header .nav{
-    width: 430px;
-    margin-top: 9px;
+.header .navbar{
+    display: flex;
     float: right;
+    margin-top: 15px;
 }
-.header .nav span{
-    margin-left: 10px;
-    margin-right: 10px;
+.header .navbar span{
     cursor: pointer;
     color: white;
     border: none;
     padding: 6px;
+    flex-flow: row;
+    justify-content: space-around;
 }
-.header .nav a{
+.header .navbar a{
     text-decoration: none;
 }
-.header .nav span:hover{
+.header .navbar span:hover{
     color: red;
 }
-.header .nav .active{
+.header .navbar .active{
     color: red;
 }
-#drop-menu svg{
-    color: white;
-    width: 50px;
-    height: 50px;
+.header .drop-down-menu{
+    float: right;
     display: none;
-    margin-left: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.header .drop-down-menu svg{
+    color: white;
+    width: 45px;
+    height: 45px;
+    font-weight: bold;
+}
 .theme-sect{
     background-image: url(./images/theme-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 460px;
-    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block; 
 }
-.theme-sect .first-part{
-    font-size: 33px;
-    margin-bottom: 50px;
-    font-style: italic;
-    letter-spacing: 1.5px;
-}
-.theme-sect .second-part{
-    font-size: 20px;
-    letter-spacing: 1.5px;
-}
-.theme-sect .book-appointment{
-    width: 350px;
+    .first-part-big{
+        width: 450px
+    }
+.theme-sect .book-appointment-button{
+    width: 300px;
     height: 50px;
     box-sizing: border-box;
     background-color: green;
@@ -106,130 +246,67 @@ body{
     padding: 8px;
     padding-top: 10px;
     border-radius: 15px;
+    
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-/* .about-sect{
-    background-color: white;
-    height: 1100px;
-    color: black;
-}
-.about-sect .why{
-    font-size: 29px;
-    margin: 20px;
-    font-weight: bold;
-    font-style: italic;
-    letter-spacing: 3px;
-}
-.about-sect .about-message{
-    font-size: 18px;
-    margin: 20px;
-}
-.about-sect .uniqueness{
-    font-size: 18px;
-}
-.about-sect .uniqueness .all-first{
-    float: left;
-    width: 330px;
-    margin-left: 20px;
-}
-.about-sect .uniqueness .all-second{
-    float: right;
-     width: 330px;
-     margin-right: 40px;
-}
-.about-sect .uniqueness .all-first .unique-first,
-.about-sect .uniqueness .all-second .unique-second{
-    width: 300px;
-    height: 40px;
-    background-color: black;
-    color: white;
-    padding-top: 12px;
-    border-radius: 22px;
-    font-style: italic;
-    font-size: 18px;
-    text-align: center;
-    margin:0px auto;
-} */
-
 .about-sect{
-    background-color: white;
-    height: 700px;
+    background-image: url(./images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: black;
-    border: 2px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 0px;
+    display: inline-block; 
+    color: white
 }
-.about-sect .why{
-    font-size: 29px;
-    padding-top: 40px;
-    padding-bottom: 0px;
-    display: block;
-    font-weight: bold;
-    font-style: italic;
-    letter-spacing: 3px;
+.about-sect h3{
+    color: green;
 }
-.about-sect .about-message{
-    font-size: 18px;
-    box-sizing: border-box;
-    margin: 10px;
-    padding: 5px;
-}
-.about-sect .uniqueness{
-    margin-top: 5px;
-}
-.about-sect .uniqueness .all-first{
-    float: left;
-    width: 350px;
-}
-.about-sect .uniqueness .all-second{
-    float: right;
-     width: 350px
-}
-.about-sect .uniqueness .all-first .unique-first,
-.about-sect .uniqueness .all-second .unique-second{
-    width: 300px;
-    height: 40px;
-    background-color: black;
-    color: white;
-    padding-top: 12px;
-    border-radius: 22px;
-    font-style: italic;
-    font-size: 25px;
-    text-align: center;
-    margin:0px auto;
-}
-
-
-
-
-/*contact us sect*/
+    .about-sect .what-define-us{
+        margin: 10px;
+    }
+   .about-sect .definition-first{
+       float: left;
+       width: 45%;
+       border: 1px solid black;
+       padding: 5px;
+       border-radius: 15px;
+       background-color: white;
+       color: black;
+        
+    }
+    .about-sect .definition-second{
+        float: right;
+       width: 45%;
+        border: 1px solid black;
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        background-color: white;
+        color: black;
+    }
 .contact-sect{
-    height: 520px;
     background-image: url(images/contact-bg.avif);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid white;  
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block; 
 }
-.contact-sect .Address-phone,.contact-sect .Address-email{
-    width: 380px;
-    height: 300px;
-}
-.contact-sect .Address-email{
-    float: right;
-}
-.contact-sect .Address-phone{
-    float: left
-}
+    .contact-sect .Address-phone{
+        width: 40%;
+        float: left;
+    }
+    .contact-sect .Address-email{
+        width: 50%;
+        float: right;
+    }
 .contact-sect .Address-email input{
     height: 30px;
-    width: 280px;
-    margin-bottom: 10px;
+    width: 240px;
     background-color: inherit;
     border: none;
     border-bottom: 2px solid white;
@@ -240,6 +317,7 @@ body{
     height: 30px;
     margin:0px auto;
     margin-top: 30px;
+    margin-bottom: 30px;
     display: block;
     background-color: white;
     border-radius: 15px;
@@ -247,18 +325,8 @@ body{
     font-size: 19px;
     color: black;
 }
-
-
-
-
-
-
-
-
-
 .footer{
     height: 150px;
-    width: 500px;
     text-align: center;
     color: white;
     font-size: 16px;
@@ -273,154 +341,202 @@ body{
     margin-top: 5px;
     cursor: pointer;
 }
-.footer img{
-    width: 60px;
-    height: 60x;
-    align-items: center;
-    border-radius: 50%;
-    margin-top: 8px;
+/* bellow disappear elements */
+.drop-down{
+    display: none;
 }
-.footer p{
-    margin-top: 2px;
-    display: inline-block;
+
+
 }
 
 
 
 
+/*largest screen size*/
 
 
 
+@media (min-width:800px) {   
 
+/*
+.container{
+    display: ; 
 
-
-/* small screens */
-
-
-@media (min-width: 250px) and (max-width: 425px) {
-    body{
-        width: 100%;
-        max-width: 440px;
-        box-sizing: border-box;
-    }
-    .container{
-        width: 430px;
-    }
-    .header{
-        width: 430px;
-    }
-    #navbar{
-        display: none;
-    }
-    #drop-menu svg{
-        display: block;
-        color: white;
-    }
-    .theme-sect{
-        width: 430px;
-        height: 550px;
-    }
-    .theme-sect .book-appointment{
-        width: 270px;
-    }
+}
+*/
     
-    .about-sect .uniqueness .all-first{
-        float: none;
-        width: 430px;
-        box-sizing: border-box;
-        padding: 5px;
-    }
-    .about-sect .uniqueness .all-second{
-        float: none;
-         width: 430px;
-         box-sizing: border-box;
-         padding: 5px;
-         margin-right: 5px;
-    }
-    .about-sect{
-        background-color: white;
-        height: 950px;
-        color: black;
-        width: 430px;
-    }
-    .contact-sect{
-        height: 800px;
-        width: 430px;
-        }
-    .contact-sect .Address-email{
-        float: none;
-        margin: 15px;
-    }
-    .contact-sect .Address-phone{
-        float: none;
-        margin: 15px;
-    }
-
+.header{
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px; 
 }
 
+.header .company-logo{
+    float: left;
 
+}
+.header .company-logo .nile{
+    display: inline;
 
-/*for smaller screens*/
+}
+.header .company-logo .prog{
+    display: inline;
 
-
-
-@media (min-width: 426px) and (max-width: 700px) {
-    .container{
-        width: 100%;
-        max-width: 710px;
-    }
-    /* .container{
-        width: 710px;
-    } */
-    .header{
-        width: 710px;
-    }
-    .header .nav{
-        display: block;
-    }
-    .header .drop-down-menu{
-        display: none;
-        color: white;  
+}
+.xcolor{
+    color: red;
+}
+.header .navbar{
+    margin-top: 9px;
+    float: right;
+}
+.header .navbar span{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 6px;
+}
+.header .navbar a{
+    text-decoration: none;
+}
+.header .navbar span:hover{
+    color: red;
+}
+.header .navbar .active{
+    color: red;
+}
+.header .drop-down-menu{
+    float: right;
+    display: none;
+}
+.header .drop-down-menu svg{
+    color: white;
+    width: 45px;
+    height: 45px;
+    font-weight: bold;
 }
 .theme-sect{
-    width: 710px;
-    height: 400px;
+    background-image: url(./images/theme-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block; 
 }
-.theme-sect .book-appointment{
-    width: 350px;
-}
-.about-sect{
-    height: 900px;
-    width: 710px;
-}
-.about-sect .uniqueness .all-first{
-    float: left;
-    width: 730px;
-    box-sizing: border-box;
-    padding: 5px;
-}
-.about-sect .uniqueness .all-second{
-    float: right;
-     width: 730px;
-     box-sizing: border-box;
-     padding: 5px;
-}
-.about-sect{
-    background-color: white;
-    height:690px;
-    color: black;
-    width: 730px;
-}
-.contact-sect{
-    height: 800px;
-        width: 730px;
+    .first-part-big{
+        width: 450px
     }
-.contact-sect .Address-email{
-    float: none;
-    margin: 15px;
+.theme-sect .book-appointment-button{
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: green;
+    text-align: center;
+    font-size: 23px;
+    padding: 8px;
+    padding-top: 10px;
+    border-radius: 15px;
+    
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.contact-sect .Address-phone{
-    float: none;
-    margin: 15px;
+.about-sect{
+    background-image: url(./images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 0px;
+    display: inline-block; 
+    color: white
 }
+.about-sect h3{
+    color: green;
+}
+    .about-sect .what-define-us{
+        margin: 10px;
+    }
+   .about-sect .definition-first{
+       float: left;
+       width: 45%;
+       border: 1px solid black;
+       padding: 5px;
+       border-radius: 15px;
+       background-color: white;
+       color: black;
+        
+    }
+    .about-sect .definition-second{
+        float: right;
+       width: 45%;
+        border: 1px solid black;
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        background-color: white;
+        color: black;
+    }
+.contact-sect{
+    background-image: url(images/contact-bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block; 
+}
+    .contact-sect .Address-phone{
+        width: 40%;
+        float: left;
+    }
+    .contact-sect .Address-email{
+        width: 50%;
+        float: right;
+    }
+.contact-sect .Address-email input{
+    height: 30px;
+    width: 240px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.contact-sect .Address-email .submit{
+    width: 270px;
+    height: 30px;
+    margin:0px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 19px;
+    color: black;
+}
+.footer{
+    height: 150px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+.footer svg{
+    width: 30px;
+    height: 30px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+/* bellow disappear elements */
+.drop-down{
+    display: none;
+}
+
+
 }
