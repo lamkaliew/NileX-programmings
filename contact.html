@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>NileX programmings/About</title>
+        <title>Contats</title>
         <meta name="description" content="NileX a dynamic technology company specializing in website and mobile application development. Focused on delivering secure, responsive, and user-friendly solutions, NileX Programmings leverages the latest technologies to create, design, develop, and maintain digital platforms to meet the unique needs of its clients. empowering local businesses with innovative digital tools for growth and success.">
         <meta name="keywords" content="relevant, Nile, nile programming agency, nile coding, nile web development, web development">
         <link rel="stylesheet" href="normalize.css">
@@ -30,36 +30,36 @@
                     <a href="contact.html"><span>Contact Us</span></a>   
                 </div>
         </div>
-        
-        <hr>
-        
-        
-        <div class="contact-of-menu">
-            <div class="company-brief">
-                <h2>NileX Programmings</h2> Is a dynamic technology company specializing in comprehensive website and mobile application development. We are committed to delivering secure, responsive, and user-friendly digital solutions by utilizing the latest technologies and industry best practices. Our end-to-end services cover the full development lifecycle—from concept and design to creation, deployment, and ongoing maintenance.
-                <h2>Our Services Include</h2>
-            </div>
-        <div class="contact">
-            <div class="Address-email">
-                <h3>Fill This Form </h3>
-                <form>
-                <label>Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="text" id="name" name="name" placeholder="Write Your Name"><br>
-                <label>Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="email" id="email" name="email" placeholder="Email Address"><br>
-                <label>Phone:</label>&nbsp;&nbsp;&nbsp;
-                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
-                    <br>
-                <label>Message:</label>
-                <input type="text" id="message" name="message" placeholder="Write Your Message Here"><br>
-                <input type="submit" class="submit" id="submit" name="submit" value="Submit"> 
-                </form>
-            </div>
-        </div>
-
-
-    
-</div>
+                    <div id="contact-mailing" class="java-mailing-system">
+                        <h2>Fill This Form </h2>
+                        <br>
+                        <form onsubmit="SendEmail()">
+                        <label>Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" id="name" name="name" placeholder="Write Your Name"><br>
+                        <label>Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="email" id="email" name="email" placeholder="Email Address"><br>
+                        <label>Phone:</label>&nbsp;&nbsp;&nbsp;
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number"><br>
+                        <label>Message:</label>
+                        <textarea type="textarea" rows="4" id="message" name="message" placeholder="Write Your Message Here"></textarea>
+                        <input type="submit" class="submit" id="submit" name="submit" value="Submit">
+                        </form>
+                    </div>
+        <script src="https://smtpjs.com/v3/smtp.js">
+            function SendEmail() {
+                        Email.send({
+                                    Host : "smtp.mailendo.com",
+                                    Username : "username",
+                                    Password : "password",
+                                    To : 'them@website.com',
+                                    From : "you@isp.com",
+                                    Subject : "This is the subject",
+                                    Body : "And this is the body"
+                        }).then(
+                        message => alert(message)
+                        );
+            }
+        </script>
     
     </body>
 </html>

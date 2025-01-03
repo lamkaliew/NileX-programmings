@@ -21,7 +21,8 @@ body{
     .header{
         height: 40px;
         padding-left: 5px;
-        padding-right: 5px; 
+        padding-right: 5px;
+        border-bottom: 2px solid white;
     }
     .header .navbar{
         display: none;
@@ -44,7 +45,7 @@ body{
     }
     .header .drop-down-menu{
         float: right;
-    /*    display: ;*/
+        display: block;
     }
     .header .drop-down-menu svg{
         color: white;
@@ -161,7 +162,7 @@ body{
         color: black;
         display: inline-block;
     }
-    .About-company-decription h2,h3{
+    .About-company-decription h2,h3,h2{
         color: green;
     }
     .About-style{
@@ -170,6 +171,54 @@ body{
         margin:5px;
         border-radius: 12px;
     }
+    .java-mailing-system{
+        background-image: url(images/contact-bg.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+        border-top: 1px solid white;
+    }
+    .java-mailing-system h2{
+        color: green;
+        margin-left: 5%
+    }
+    .java-mailing-system form{
+        border: 1px solid;
+        width: 90%;
+        margin: 0px auto;
+        color: white;
+        padding: 10px;
+        
+        
+    }.java-mailing-system form input, .java-mailing-system form textarea{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: inherit;
+        outline: none;
+        width: 60%;
+        height: 50px;
+        color: white;
+        border: 0;
+        border-bottom: 2px outset black;
+        
+        
+    }
+    .java-mailing-system form .submit{
+        
+    width: 270px;
+    height: 30px;
+    margin:0px auto;
+    margin-top: 30px;
+    display: block;
+    background-color: green;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 19px;
+    color: black;
+    }
+    
 
 }
 
@@ -177,7 +226,6 @@ body{
 
 
 /* 01 for large screens and destop*/
-
 
 
 @media (min-width:600px) and (max-width:800px) {   
@@ -361,7 +409,83 @@ body{
     margin-top: 5px;
     cursor: pointer;
 }
-/* bellow disappear elements */
+
+    .About-company-decription{
+        box-sizing: border-box;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: white;
+        color: black;
+        display: inline-block;
+    }
+    .About-company-decription h2,h3{
+        color: green;
+    }
+    .About-style{
+        border: 1px outset red;
+        padding: 5px;
+        margin-bottom: 5px;
+        border-radius: 12px;
+        width: 47%;
+    }
+    .float-left{
+        float: left
+    }
+    .float-right{
+        float: right;
+    }
+    
+    .java-mailing-system{
+        background-image: url(images/contact-bg.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+        border-top: 1px solid white;
+    }
+    .java-mailing-system h2{
+        color: green;
+        margin-left: 20%
+    }
+    .java-mailing-system form{
+        border: 1px solid;
+        width: 70%;
+        margin: 0px auto;
+        color: white;
+        padding: 10px;
+        
+        
+    }
+    .java-mailing-system form input, .java-mailing-system form textarea{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: inherit;
+        outline: none;
+        width: 60%;
+        height: 50px;
+        color: white;
+        border: 0;
+        border-bottom: 2px outset black;
+        
+        
+    }
+    .java-mailing-system form .submit{
+        
+    width: 270px;
+    height: 30px;
+    margin:0px auto;
+    margin-top: 30px;
+    display: block;
+    background-color: green;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 19px;
+    color: black;
+    }
+    
+    
+    /* bellow disappear elements */
 .drop-down{
     display: none;
 }
@@ -557,6 +681,90 @@ body{
 .drop-down{
     display: none;
 }
+    .About-company-decription{
+        box-sizing: border-box;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: white;
+        color: black;
+        display: inline-block;
+    }
+    .About-company-decription h2,h3{
+        color: green;
+    }
+    .About-style{
+        border: 1px outset red;
+        padding: 5px;
+        margin:5px;
+        border-radius: 12px;
+    }
+    .About-company-decription{
+        box-sizing: border-box;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: white;
+        color: black;
+        display: inline-block;
+    }
+    .About-company-decription h2,h3,h2{
+        color: green;
+    }
+    .About-style{
+        border: 1px outset red;
+        padding: 5px;
+        margin:5px auto;
+        border-radius: 12px;
+        width: 45%;
+    }
+    .float-left{
+        float: left
+    }
+    .float-right{
+        float: right;
+    }
+    .java-mailing-system{
+        background-image: url(images/contact-bg.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+        border-top: 1px solid white;
+    }
+    .java-mailing-system form{
+        border: 1px solid;
+        width: 70%;
+        margin: 0px auto;
+        color: white;
+        padding: 10px;
+        
+        
+    }.java-mailing-system form input, .java-mailing-system form textarea{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: inherit;
+        outline: none;
+        width: 60%;
+        height: 50px;
+        color: white;
+        border: 0;
+        border-bottom: 2px outset black;
+        
+        
+    }
+    .java-mailing-system form .submit{
+        
+    width: 270px;
+    height: 30px;
+    margin:0px auto;
+    margin-top: 30px;
+    display: block;
+    background-color: green;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 19px;
+    color: black;
+    }
 
 
 }

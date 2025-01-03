@@ -1,8 +1,20 @@
-/* global  document, console*/
-//
-var theMenu = document.getElementById("dropDownMenu");
-var Disappearing = document.getElementById("disappear");
-var openMenu = document.getElementById("drop-down-menu");
+/* global  document,  Console*/
+
+
+//the button to pressed for menu to appear
+var openMenu = document.getElementById("OpenMenuClick");
+var TheMenu = document.getElementById("TheMenu");
+var ContainerToDisapp = document.getElementById("container");
+var ContactForm = document.getElementById("contact-mailing");
+
+
+
+
+var Aboutcontainer = document.getElementById("About-container-box");
+
+var theMenuButton = document.getElementById("menu-press-button");
+
+var openMenu = document.getElementById("OpenMenuClick");
 
 
 openMenu.onclick = function () {
