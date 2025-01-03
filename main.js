@@ -2,30 +2,17 @@
 
 
 //the button to pressed for menu to appear
-var openMenu = document.getElementById("OpenMenuClick");
+var OpenMenu = document.getElementById("OpenMenuClick");
 var TheMenu = document.getElementById("TheMenu");
 var ContainerToDisapp = document.getElementById("container");
 var ContactForm = document.getElementById("contact-mailing");
-
-
-
-
-var Aboutcontainer = document.getElementById("About-container-box");
-
-var theMenuButton = document.getElementById("menu-press-button");
-
-var openMenu = document.getElementById("OpenMenuClick");
-
-
-openMenu.onclick = function () {
+var AboutContainer = document.getElementById("About-container-box");
+console.log(OpenMenu);
+OpenMenu.onclick = function () {
     "use strict";
-    Disappearing.style.display = "none";
-    theMenu.style.display = "block";
-    console.log("hello");
     
+        ContainerToDisapp.style.display = "none";
+        OpenMenu.style.display = "none";
+        TheMenu.style.display = "block";
+        console.log("what is the problem second scenario");
 };
-//GoBack.onclick = function (){
-//    "use strick";
-//    console.log("hello");
-//    Disappearing.style.display = "none";    
-//}
