@@ -2,175 +2,42 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>NileX programmings/About</title>
+        <title>About</title>
         <meta name="description" content="NileX a dynamic technology company specializing in website and mobile application development. Focused on delivering secure, responsive, and user-friendly solutions, NileX Programmings leverages the latest technologies to create, design, develop, and maintain digital platforms to meet the unique needs of its clients. empowering local businesses with innovative digital tools for growth and success.">
         <meta name="keywords" content="relevant, Nile, nile programming agency, nile coding, nile web development, web development">
         <link rel="stylesheet" href="normalize.css">
-<style>
-    
-    body{
-        background-color: black;
-        color: white;
-        font-family: Tahoma;
-    }
-
-    .About-container{
-        width:840px;
-        margin:0px auto;
-        
-    }
-    
-    .About-style{
-        border: 2px solid white;
-        border-radius: 10px;
-        width:390px;
-        height: 140px;
-        padding: 7px;
-        margin: 5px;
-        float: left
-    }
-    
-    .About-style h3, h2,h1{
-        color: green;
-    }
-    .About-style h3{
-        margin-top: 2px;
-    }
-    float-left{
-        float: left
-    }
-    float-right{
-        float: right
-    }
-    
-/*    header style*/
-    .About-header{
-    width: 840px;
-    height: 45px;
-    font-weight: bold;
-        padding-top: 5px;
-}
-    .About-header .logo{
-    float: left;
-    font-style: italic;
-}
-    .About-header .prog{
-    font-style: italic;
-}
-.About-header .logo .nile{
-    font-size: 33px;
-}
-.xcolor{
-    color: red;
-}
-    .About-header .nav{
-/*    width: 400px;*/
-        font-size: 17px;
-    margin-top: 9px;
-    float: right;
-}
-.About-header .nav span{
-    margin-left: 10px;
-    margin-right: 10px;
-    cursor: pointer;
-    color: white;
-    padding: 6px;
-}
-.About-header .nav a{
-    text-decoration: none;
-}
-.About-header .nav span:hover{
-    background-color: green;
-}
-.About-header .nav .active{
-    color: red;
-    border-bottom: 2px solid green;
-}
-    #drop-menu svg{
-        color: white;
-        width: 50px;
-        height: 50px;
-        display: block;
-        margin-left: auto;
-}
-    .About-header .drop-down-menu{
-    display: none;
-}
-    .About-com{
-        box-sizing: border-box;
-        padding: 5px;
-    }
-    @media (max-width: 425px) {
-    .About-container{
-        width:430px;
-        
-    }   
-        .nav{
-            display: none;
-        }
-        .About-style{
-        width:410px;
-    }
-     #drop-menu svg{
-        
-        display: block;
-}
-         .About-header{
-             width: 430px;}
-    .About-header .drop-down-menu{
-    display: block;
-}
-        .About-header .nav{
-            width: 430px;}
-    float-left{
-        float: none
-    }
-    float-right{
-        float: none
-    }
-        
-    }
-
-   
-</style>
-
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
-    <div class="About-container container">
-        <div class="About-header About-container">
-            <div>
-                <div class="logo">
-                    <span class="nile">Nile<span class="xcolor">X</span></span> <span class="prog">programmings</span>
+        <div class="header">
+                <div>
+                    <div class="company-logo">
+                        <h1 class="nile">Nile<span class="xcolor">X</span></h1>
+                        <h4 class="prog">programmings</h4>
+                    </div>
+                    <div class="drop-down-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                    </div>
+                    
                 </div>
-                <div id="drop-menu" class="drop-down-menu">
-                    <svg id="drop-down-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                    </svg>
+                <div class="navbar">
+                    <a><span class="active">Home</span></a>
+                    <a href="About.html"><span id="about-us">About</span></a>
+                    <a href="About.html"><span>Work</span></a>
+                    <a href="contact.html"><span>Contact Us</span></a>   
                 </div>
-                
-            </div>
-            <div id=" About-navbar" class="nav">
-               <a><span class="active">Home</span></a>
-                <a href="About.html"><span id="about-us">About</span></a>
-                <a href="About.html"><span>Work</span></a>
-                <a href="contact.html"><span>Contact Us</span></a> 
-            </div>
-        </div>
- </div>
+    </div>
         
         <hr>
         
         
 <div class="About-container About-container-box">
-    <div class="About-com">
+    <div class="About-company-decription">
     <h2>NileX Programmings</h2> Is a dynamic technology company specializing in comprehensive website and mobile application development. We are committed to delivering secure, responsive, and user-friendly digital solutions by utilizing the latest technologies and industry best practices. Our end-to-end services cover the full development lifecycle—from concept and design to creation, deployment, and ongoing maintenance.
     <h2>Our Services Include</h2>
     </div>
-<!--
-    <div class="About-style float-left">
-    <h3>Custom Web Development</h3> We build fully customized websites that are scalable, high-performance, and tailored to meet the unique needs of each business. Whether you need a corporate site, e-commerce platform, or portfolio site, we create digital solutions that resonate with your audience.
-    </div>
--->
 
     <div class="About-style float-right"> 
     <h3>Mobile App Development</h3> Our team develops native and cross-platform mobile applications for both iOS and Android. From user-friendly interfaces to seamless functionality, we ensure your app delivers a smooth, intuitive experience.
@@ -192,18 +59,6 @@
     <h3>E-Commerce Solutions</h3> We develop e-commerce websites and platforms that are not only visually appealing but also highly functional, ensuring a secure and efficient shopping experience for your customers.</div>
 
 
-<!--
-    <div class="About-style float-left">
-    <h3>API Development & Integration</h3> We design and integrate APIs to enable seamless connectivity between your website, mobile app, and third-party services or databases.</div>
--->
-
-
-<!--
-    <div class="About-style float-right">
-    <h3>SEO & Digital Marketing</h3> We offer Search Engine Optimization (SEO) services to improve your site's visibility and ranking, alongside digital marketing strategies to help your business reach and engage your target audience.</div>
--->
-
-
     <div class="About-style float-left">
     <h3>Website Maintenance & Support</h3> We provide ongoing support and maintenance to ensure that your website or app remains up-to-date, secure, and optimized for performance.
     </div>
@@ -212,18 +67,8 @@
     <div class="About-style float-right">
     <h3>Security Solutions</h3> We prioritize the security of your website and mobile applications by implementing the latest security protocols, encryption techniques, and regular vulnerability assessments to safeguard your business data and customer privacy.
     </div>
-
-
-
-<!--
-    <div class="About-style float-left">
-    At NileX Programmings, we don’t just build websites and apps—we create digital ecosystems that help businesses innovate, scale, and stay ahead of the competition. Our dedicated team of developers, designers, and strategists works closely with clients to deliver solutions that are not only technically robust but also aligned with business goals.
-    </div>
--->
     
 </div>
-
-<!--<a href="index.html"  id="go-back" class="container" id="return-back">Back</a>-->
     
     </body>
 </html>

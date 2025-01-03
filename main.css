@@ -6,6 +6,9 @@ body{
     letter-spacing: 1.3px;
     
 }
+/* standard */
+
+
 @media (max-width:600px) {   
 
 /*
@@ -150,13 +153,30 @@ body{
     text-decoration: none;
     color: white;
     }
+    .About-company-decription{
+        box-sizing: border-box;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: white;
+        color: black;
+        display: inline-block;
+    }
+    .About-company-decription h2,h3{
+        color: green;
+    }
+    .About-style{
+        border: 1px outset red;
+        padding: 5px;
+        margin:5px;
+        border-radius: 12px;
+    }
 
 }
 
 
 
 
-/*for large screens and destop*/
+/* 01 for large screens and destop*/
 
 
 
@@ -352,7 +372,7 @@ body{
 
 
 
-/*largest screen size*/
+/* 02 largest screen size*/
 
 
 
