@@ -128,15 +128,13 @@ body{
         text-align: center;
         color: white;
         font-size: 16px;
-        word-spacing: 3px;
-        letter-spacing: 2px;
+        word-spacing: 3px
     }
     .footer svg{
         width: 30px;
         height: 30px;
         margin-left: 18px;
         margin-right: 18px;
-        margin-top: 5px;
         cursor: pointer;
     }
     .menu-footer{
